@@ -1,0 +1,215 @@
+/* General Styling */
+
+body {
+    margin:0 !important;
+    font-family: Glacial Indifference !important;
+    padding:0 !important;
+    font-size: calc(14px + (24 - 14) * ((100vw - 300px) / (1600 - 300)));
+    color:white !important;
+    background-color: #2b2b2b !important;
+    font-weight: normal !important;
+    overflow-x: hidden;
+    line-height: 1.1em !important;
+
+}
+
+
+h1 {
+    font-size: calc(36px + (50 - 14) * ((100vw - 300px) / (1600 - 300))) !important;
+    font-weight: bold !important;
+}
+
+h2 {
+    font-size: calc(22px + (40 - 14) * ((100vw - 300px) / (1600 - 300))) !important;
+    font-weight:bold !important;
+}
+
+/* Header */
+
+.header-description{
+    text-align: center;
+    padding: 18vmin;
+
+   
+    
+}
+.header-description p {
+    max-width: 700px;
+    text-align: center;
+    margin:  auto;
+    padding: 0 0 4vmin 0;
+}
+
+.header-description span {
+    color: #7efff6;
+}
+
+.header-description button {
+    background-image:linear-gradient(45deg, #00c2ae, #7efff6 );
+    height: 5vmin;
+    width: 25vw;
+    border:none;
+}
+
+.header-description ul li {
+    padding: 3vmin;
+   
+}
+.header-description ul li i {
+    font-size: calc(32px + (40 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
+
+
+a {
+    color: #7efff6;
+    text-decoration: none;
+}
+
+button a {
+    color: #2b2b2b;
+}
+
+.social-icons li {
+    
+    list-style: none;
+    padding: 0 15px;
+    font-size: 26px;
+}
+
+.social-icons ul {
+    display:flex;
+    flex-grow: row;
+    text-align: center;
+    padding-inline-start: 0 !important;  
+    
+}
+
+/* Navbar */
+
+nav a {
+    animation: navbarAnimate 0.5s ease-in;
+    padding: 20px !important;
+    text-align: right;
+    font-size: calc(16px + (30 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
+
+@keyframes navbarAnimate {
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+
+/* Featured Blog Section */
+
+.featured-blog {
+    background:white;
+    padding: 0 10px;
+}
+
+.featured-blog h2, .featured-blog p {
+    color: #2b2b2b;
+   
+}
+
+.featured-blog h2 {
+    padding: 20px 10px;
+    line-height: .9em;
+}
+
+.featured-blog p {
+    padding: 0 10px 10px 10px;
+}
+
+.featured-blog span {
+    color: #2b2b2b;
+    font-size: 10px;
+}
+
+
+.blog:hover {
+    position: relative;
+    cursor: pointer;
+    background: #7efff6;
+}
+
+
+
+/*  Portfolio Section  */
+section.portfolio {
+    overflow-x: hidden !important;
+}
+
+.row.portfolio .col-md-4 {
+    padding:0 !important;
+}
+
+
+
+/* CTA Want to work with me */
+
+section.cta-contact {
+    background-color:#ffffff;
+    padding-bottom: 6vw;
+}
+
+section.cta-contact h2 {
+    color:#2b2b2b;
+    text-align: center;
+    padding: 8vw 0 2vw;
+    text-transform: uppercase;
+    letter-spacing: .8vw;
+}
+
+section.cta-contact button{
+    display:block;
+    margin:0 auto;
+    height: 5vmin;
+    width: 25vw;
+    border-radius: 0px;
+    border: none;
+    background-image: linear-gradient(45deg, #7efff6, #00c2ae);
+}
+
+button a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Footer */
+
+.footer-md {
+    padding: 30px 40px;
+}
+
+
+.footer-md li {
+    list-style: none;
+    padding: 5px 0;
+}
+
+.footer-md ul li a {
+    color: #7efff6;
+}
+.footer-md ul li a:hover {
+    color:#00c2ae;
+    text-decoration: none;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+

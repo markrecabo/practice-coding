@@ -141,6 +141,9 @@ nav a {
     background: #7efff6;
 }
 
+.blog {
+    padding: 40px 50px !important; 
+}
 
 
 /*  Portfolio Section  */
@@ -162,11 +165,12 @@ section.cta-contact {
 }
 
 section.cta-contact h2 {
+    font-size: 20px !important;
     color:#2b2b2b;
     text-align: center;
     padding: 8vw 0 2vw;
     text-transform: uppercase;
-    letter-spacing: .8vw;
+    letter-spacing: .6vw;
 }
 
 section.cta-contact button{
@@ -207,9 +211,17 @@ button a:hover {
 
 .social-links {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: column
 }
 
+.s-icons {
+    display: flex;
+    flex-direction: row;
+    letter-spacing: 1vw 
+}
 
+.s-icons li a i {
+    font-size: 26px !important;
+    color: white;
+}
 

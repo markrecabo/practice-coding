@@ -4,7 +4,7 @@ body {
     margin:0 !important;
     font-family: Glacial Indifference !important;
     padding:0 !important;
-    font-size: calc(14px + (24 - 14) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(16px + (24 - 16) * ((100vw - 300px) / (1600 - 300)));
     color:white !important;
     background-color: #2b2b2b !important;
     font-weight: normal !important;
@@ -14,16 +14,18 @@ body {
 }
 
 .wrapper {
-    overflow: auto;
+    overflow: hidden;
 }
 
+
+
 h1 {
-    font-size: calc(36px + (50 - 14) * ((100vw - 300px) / (1600 - 300))) !important;
+    font-size: calc(36px + (40 - 14) * ((100vw - 300px) / (1600 - 300))) !important;
     font-weight: bold !important;
 }
 
 h2 {
-    font-size: calc(22px + (40 - 14) * ((100vw - 300px) / (1600 - 300))) !important;
+    font-size: calc(22px + (30 - 14) * ((100vw - 300px) / (1600 - 300))) !important;
     font-weight:bold !important;
 }
 
